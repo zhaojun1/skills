@@ -1,0 +1,10 @@
+timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
+2026-05-30T17:26	baseline	buffett-munger-dialogue	-	54.8	baseline	-	初始评估，dim3/dim4/dim9偏低	dry_run
+2026-05-30T17:31	a1b2c3d	buffett-munger-dialogue	54.8	72.2	keep	Dim3+Dim4+Dim9+动态轮次	多轮联合优化，Δ+17.4	dry_run
+2026-05-30T17:33	baseline	buffett-lens	-	75.2	baseline	-	初始基线评估	dry_run
+2026-05-30T17:35	3ed1bbd	buffett-lens	75.2	83.7	keep	dim4	R1: add visual checkpoints (7x🔴+3x🛑)	dry_run
+2026-05-30T17:36	9658adc	buffett-lens	83.7	87.3	keep	dim3	R2: failure mode table (12 row if-then fallback)	dry_run
+2026-05-30T17:37	65b1a31	buffett-lens	87.3	89.7	keep	dim9	R3: standalone blacklist (3-tier 🚫13-item)	dry_run
+2026-05-30T17:38	0da01a2	buffett-lens	89.7	90.4	keep	dim1	R4: tighten frontmatter + trigger words	dry_run
+2026-05-30T17:38	R5	buffett-munger-dialogue	72.2	75.6	keep	Dim2+Dim7	输出模板适配动态轮次，Δ+3.4	dry_run
+2026-05-30T17:38	R6	buffett-munger-dialogue	75.6	77.1	keep	Dim7	消除附加能力节适时矛盾，Δ+1.5，触顶	break	dry_run
