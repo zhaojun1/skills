@@ -1,0 +1,5 @@
+timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
+2026-05-30T12:43	baseline	duan-yongping-lens	-	54.5	baseline	-	初始评估：dim3/4/9/1最低	dry_run
+2026-05-30T12:44	round1	duan-yongping-lens	54.5	65.2	keep	dim3+dim4	三模块补三段式fallback表+CHECKPOINT标记	dry_run
+2026-05-30T12:45	round2	duan-yongping-lens	65.2	68.2	keep	dim9	新增Agent行为黑名单章节（7条禁止项）	dry_run
+2026-05-30T12:46	round3	duan-yongping-lens	68.2	72.1	keep	dim1+dim2	Frontmatter补trigger_keywords/not_for；加模块入口决策树	dry_run
